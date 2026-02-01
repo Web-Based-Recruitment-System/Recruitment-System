@@ -1,0 +1,10 @@
+INSERT IGNORE INTO department (id, department_name) VALUES (1, 'IT');
+INSERT IGNORE INTO department (id, department_name) VALUES (2, 'HR');
+INSERT IGNORE INTO department (id, department_name) VALUES (3, 'Finance');
+INSERT IGNORE INTO department (id, department_name) VALUES (4, 'Marketing');
+INSERT IGNORE INTO department (id, department_name) VALUES (5, 'Sales');
+INSERT IGNORE INTO department (id, department_name) VALUES (6, 'Engineering');
+INSERT IGNORE INTO department (id, department_name) VALUES (7, 'Operations');
+INSERT IGNORE INTO department (id, department_name) VALUES (8, 'Customer Service');
+INSERT IGNORE INTO department (id, department_name) VALUES (9, 'Research and development');
+INSERT IGNORE INTO department (id, department_name) VALUES (10, 'Legal');

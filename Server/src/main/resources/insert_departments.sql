@@ -1,0 +1,10 @@
+INSERT INTO department (id, department_name) VALUES (1, 'IT');
+INSERT INTO department (id, department_name) VALUES (2, 'HR');
+INSERT INTO department (id, department_name) VALUES (3, 'Finance');
+INSERT INTO department (id, department_name) VALUES (4, 'Marketing');
+INSERT INTO department (id, department_name) VALUES (5, 'Sales');
+INSERT INTO department (id, department_name) VALUES (6, 'Engineering');
+INSERT INTO department (id, department_name) VALUES (7, 'Operations');
+INSERT INTO department (id, department_name) VALUES (8, 'Customer Service');
+INSERT INTO department (id, department_name) VALUES (9, 'Research and development');
+INSERT INTO department (id, department_name) VALUES (10, 'Legal');
