@@ -1,0 +1,89 @@
+.signup-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Very light gradient background */
+  background: linear-gradient(135deg, #f3e8ff, #eae6ff);
+  padding: 20px;
+}
+
+.signup-card {
+  background: rgba(255, 255, 255, 0.98); /* almost pure white but a bit airy */
+  border-radius: 20px;
+  padding: 40px 30px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* lighter shadow */
+}
+
+.signup-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #8a6ed9; /* lighter purple for title */
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.name-fields {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #c9b4f0; /* lighter focus color */
+  box-shadow: 0 0 8px rgba(201, 180, 240, 0.3);
+}
+
+.gender-fields {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.gender-option {
+  font-size: 14px;
+}
+
+.signup-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #c9b4f0; /* soft pastel button */
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.signup-btn:hover {
+  background-color: #b08ee3; /* slightly darker on hover */
+}
+
+.signin-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+.signin-link a {
+  color: #c9b4f0; /* match button color */
+  font-weight: 600;
+  text-decoration: none;
+}
+.signin-link a:hover {
+  text-decoration: underline;
+}
