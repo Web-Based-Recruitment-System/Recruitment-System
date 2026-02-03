@@ -1,0 +1,86 @@
+/* Page wrapper */
+.contact-container {
+  min-height: 100vh;
+  padding: 100px 20px 60px; /* extra top space to avoid navbar overlap */
+  background: linear-gradient(135deg, #f3e8ff, #f7f4ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title */
+.contact-title {
+  font-size: 38px;
+  font-weight: 700;
+  color: #6c4bc0;
+  margin-bottom: 45px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+/* Cards layout */
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 40px;
+}
+
+/* Individual card */
+.contact-card {
+  background: #ffffff;
+  padding: 25px 22px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.12);
+}
+
+.contact-card h3 {
+  color: #7a5fd1;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.contact-card p {
+  font-size: 14px;
+  color: #444;
+  margin: 6px 0;
+}
+
+.contact-card a {
+  color: #9b7ed9;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+/* Address section */
+.contact-address {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 25px 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+  width: 100%;
+}
+
+.contact-address h3 {
+  color: #6c4bc0;
+  margin-bottom: 10px;
+}
+
+.contact-address p {
+  font-size: 15px;
+  color: #555;
+}

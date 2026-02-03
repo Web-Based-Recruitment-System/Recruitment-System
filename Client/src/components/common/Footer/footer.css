@@ -1,0 +1,44 @@
+.footer {
+  width: 100%;
+  background: linear-gradient(135deg, #6a0dad, #9b7ed9);
+  color: #fff;
+  padding: 30px 20px 10px;
+  margin-top: 40px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ffd700; /* gold hover effect */
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.9rem;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  border-radius: 8px;
+}

@@ -1,0 +1,49 @@
+/* Navbar background */
+.background {
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #6a0dad, #9b7ed9);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Brand styling */
+.navbar-brand {
+  color: #fff !important;
+  font-weight: 800;
+  font-size: 32px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #ffd700; /* gold hover */
+}
+
+/* Nav items */
+.items {
+  color: #fff !important;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.items:hover {
+  color: #ffd700 !important;
+  transform: translateY(-2px);
+}
+
+/* Active link styling */
+.items.active {
+  border-bottom: 2px solid #ffd700;
+  padding-bottom: 2px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 992px) {
+  .navbar-brand {
+    font-size: 26px;
+  }
+  .items {
+    margin: 8px 0;
+  }
+}

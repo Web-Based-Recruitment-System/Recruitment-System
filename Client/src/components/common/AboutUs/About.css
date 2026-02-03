@@ -1,0 +1,101 @@
+.about-container {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f3e8ff, #f7f4ff);
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #4e2a84;
+  margin-bottom: 10px;
+}
+
+.about-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.brand {
+  color: #6a0dad;
+  font-weight: 700;
+}
+
+/* Grid layout */
+.about-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Card styling */
+.about-card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* Image with overlay */
+.card-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.about-card:hover .card-image img {
+  transform: scale(1.05);
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(106, 13, 173, 0.75);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Card body */
+.card-body {
+  padding: 22px;
+}
+
+.card-body p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+  text-align: justify;
+}
+
+/* Responsive */
+@media only screen and (max-width: 900px) {
+  .about-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-card {
+    width: 90%;
+  }
+}
