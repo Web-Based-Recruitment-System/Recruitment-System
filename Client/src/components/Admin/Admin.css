@@ -1,0 +1,65 @@
+/* Navbar */
+.admin-navbar {
+  height: 60px;
+  background: linear-gradient(135deg, #6a5acd, #836fff);
+}
+
+/* Layout */
+.admin-container {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+/* Sidebar */
+.admin-sidebar {
+  width: 240px;
+  background-color: #f4f6fb;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.admin-profile {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.admin-profile h5 {
+  margin: 0;
+  color: #555;
+}
+
+.admin-profile h4 {
+  color: #333;
+}
+
+/* Sidebar Links */
+.sidebar-link {
+  display: block;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background-color: #e9e7f7;
+}
+
+.sidebar-link:hover {
+  background-color: #6a5acd;
+  color: #fff;
+}
+
+/* Active NavLink */
+.sidebar-link.active {
+  background-color: #6a5acd;
+  color: white;
+}
+
+/* Main Content */
+.admin-content {
+  flex: 1;
+  padding: 25px;
+  background-color: #f9fafc;
+  overflow-y: auto;
+}

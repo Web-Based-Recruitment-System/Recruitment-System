@@ -1,0 +1,70 @@
+.joblist-page {
+  padding: 30px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.joblist-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.joblist-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.joblist-subtitle {
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.joblist-table {
+  margin-top: 10px;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+.joblist-table thead th {
+  background: #343a40;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  text-align: center;
+}
+
+.joblist-table tbody tr {
+  background: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.joblist-table tbody tr:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.joblist-table td {
+  padding: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.status-badge.active {
+  background: #e6f4ea;
+  color: #198754;
+}
+
+.status-badge.inactive {
+  background: #fdeaea;
+  color: #dc3545;
+}

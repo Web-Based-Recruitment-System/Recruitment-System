@@ -1,0 +1,75 @@
+.reportv2-page {
+  min-height: 100vh;
+  padding: 35px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+}
+
+.reportv2-header {
+  margin-bottom: 30px;
+}
+
+.reportv2-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.reportv2-header p {
+  color: #cfd8dc;
+}
+
+/* Layout */
+.reportv2-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
+}
+
+/* KPI PANEL */
+.kpi-panel {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.kpi-card {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.kpi-card:hover {
+  transform: translateY(-5px);
+}
+
+.kpi-card span {
+  font-size: 14px;
+  color: #d1d5db;
+}
+
+.kpi-card h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.kpi-card.highlight {
+  background: linear-gradient(135deg, #9b7ed9, #7f5af0);
+}
+
+/* CHART PANEL */
+.chart-panel {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.chart-panel h4 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
